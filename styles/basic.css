@@ -1,25 +1,32 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-	text-decoration: none;
-	color: unset;
+  text-decoration: none;
+  color: unset;
 }
 
 ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-	margin: 0 auto;
-	max-width: 970px;
-	padding: 0 10px;
+  margin: 0 auto;
+  max-width: 970px;
+  padding: 0 10px;
+}
+
+.divider {
+  height: 1px;
+  width: min(420px, 100%);
+  background-color: var(--bg--main-black);
+  margin: 0 auto;
 }
